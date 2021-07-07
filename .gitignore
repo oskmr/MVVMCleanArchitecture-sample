@@ -16,6 +16,10 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+# XcodeGen
+*.xcodeproj
+*.xcworkspace
+
 # CocoaPod
 Pods/*
 
