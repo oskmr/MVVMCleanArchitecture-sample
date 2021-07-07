@@ -24,7 +24,7 @@ disabled_rules:
   #- force_try
   #- function_body_length
   #- function_parameter_count
-  #- generic_type_name
+  - generic_type_name
   #- identifier_name
   #- implicit_getter
   #- inert_defer
@@ -180,7 +180,6 @@ included:
 # 対象外のファイル・フォルダ
 excluded:
   - Pods
-  - Generated
 
 line_length:
   warning: 300

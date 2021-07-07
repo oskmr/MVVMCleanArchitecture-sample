@@ -14,7 +14,7 @@ targets:
     sources:
       - MVVMCleanArchitecture-sample
 
-    preBuildScripts:
+    postCompileScripts:
       # SwiftLintで静的解析と自動修正
       - path: ./Scripts/XcodeGen/swiftlint.sh
         name: Run SwiftLint

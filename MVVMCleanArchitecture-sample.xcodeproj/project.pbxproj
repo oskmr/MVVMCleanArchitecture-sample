@@ -174,9 +174,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48A56F5D429619965BCC23E6 /* Build configuration list for PBXNativeTarget "MVVMCleanArchitecture-sample" */;
 			buildPhases = (
+				A0B235DDB8EE97E2E4557796 /* Sources */,
 				99A50978C5D23DBB42AE6967 /* Run SwiftLint */,
 				2A27695C0D41924AE9F4EE42 /* Run SpellChecker */,
-				A0B235DDB8EE97E2E4557796 /* Sources */,
 				AE5EED7AB86DDC9B1C1D34D4 /* Resources */,
 			);
 			buildRules = (
@@ -263,7 +263,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "if ! which mint >/dev/null; then\n  echo \"warning: Mint not installed, download from https://github.com/yonaskolb/Mint\"\n  exit 0\nfi\n\ngit_path=/usr/local/bin/git\nfiles=$($git_path diff --diff-filter=d --name-only -- \"*.swift\" \"*.h\" \"*.m\")\nif (test -z $files) || (test ${#files[@]} -eq 0); then\n  echo \"no files changed.\"\n  exit 0\nfi\n\noptions=\"\"\nfor file in $files\ndo\n  options=\"$options $SRCROOT/$file\"\ndone\n\nxcrun --sdk macosx mint run SpellChecker SpellChecker --yml $SRCROOT/spell-checker.yml -- $options\n";
 		};
 		99A50978C5D23DBB42AE6967 /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -281,7 +281,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "if which mint >/dev/null; then\n  xcrun --sdk macosx mint run swiftlint swiftlint autocorrect --format\n  xcrun --sdk macosx mint run swiftlint swiftlint\nelse\n  echo \"warning: Mint not installed, download from https://github.com/yonaskolb/Mint\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
