@@ -14,23 +14,48 @@
 		4BD7AD6B492866BABCE0FE0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6269F3FB9E256E25D6B84449 /* AppDelegate.swift */; };
 		5396C162D09FB68C42DD01BD /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D73E8E80BA879B05EDA532F /* ListData.swift */; };
 		548485F6C73FE574ADAC48FD /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E607F296EBC93FC26DF1C18B /* UseCase.swift */; };
+		607C51FB0BA3FEC7C73E1D6A /* MVVMCleanArchitecture_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29360E55B49E8A461C6F196F /* MVVMCleanArchitecture_sampleUITests.swift */; };
 		72D5AAC2D2C651BEC11D3582 /* Gateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E6AB8D94966C643F34FDE7 /* Gateway.swift */; };
 		9588B0945992757D0D0BFEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E8C27D2437800697B34F0C /* Assets.xcassets */; };
 		9C4441175587FE0F62C530C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BBECF2B1816CC744094DE4 /* Main.storyboard */; };
 		DC5560C8695209F4C5380023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F0D423927EEE309AB24973 /* ViewController.swift */; };
+		EE26625C2FC07A953E392319 /* MVVMCleanArchitecture_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B02FF6BEA087456B8E37288 /* MVVMCleanArchitecture_sampleTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A7167C68847E9871FC37ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2E356DD7DCCE6652DBC18B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13EA0F939D571B447F3F1F03;
+			remoteInfo = "MVVMCleanArchitecture-sampleUITests";
+		};
+		DE0E41F34A786052B798BAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2E356DD7DCCE6652DBC18B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F43DD0A9F5B1C737B195BC9E;
+			remoteInfo = "MVVMCleanArchitecture-sampleTests";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0A98D0BD40D0D4729B261B16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		212D4CAB20A1F546F0C88BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29360E55B49E8A461C6F196F /* MVVMCleanArchitecture_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCleanArchitecture_sampleUITests.swift; sourceTree = "<group>"; };
+		304F25B438F7CC9036FE41C3 /* MVVMCleanArchitecture-sampleTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "MVVMCleanArchitecture-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4CE191C25DA6D2253DC5E3 /* MVVMCleanArchitecture-sample.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "MVVMCleanArchitecture-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E8C27D2437800697B34F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4969FB4C7D73D9FDE68E1845 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		4BC0CD11731917DCF4293ADB /* Translator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
 		6269F3FB9E256E25D6B84449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AF0E5D33549E2A50306020A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6B8556B2172BC58BD94BCFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7B02FF6BEA087456B8E37288 /* MVVMCleanArchitecture_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCleanArchitecture_sampleTests.swift; sourceTree = "<group>"; };
 		840D507E15E4EE1920EF43DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91E6AB8D94966C643F34FDE7 /* Gateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gateway.swift; sourceTree = "<group>"; };
 		9D73E8E80BA879B05EDA532F /* ListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListData.swift; sourceTree = "<group>"; };
+		A8EC5C584EF3BEC481243CAA /* MVVMCleanArchitecture-sampleUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "MVVMCleanArchitecture-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D943E5D1C0FE0C8483F5B1C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E607F296EBC93FC26DF1C18B /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
 		E7F0D423927EEE309AB24973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				E22FCBC78C1D21916AEC298B /* MVVMCleanArchitecture-sample */,
+				E9F3A5BCF3F1506D6967A7C7 /* MVVMCleanArchitecture-sampleTests */,
+				878B1AD1437E8F46D72EEBB3 /* MVVMCleanArchitecture-sampleUITests */,
 				EC3DE4ADE33A5C13BF03088C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +88,15 @@
 				E607F296EBC93FC26DF1C18B /* UseCase.swift */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		878B1AD1437E8F46D72EEBB3 /* MVVMCleanArchitecture-sampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B8556B2172BC58BD94BCFC1 /* Info.plist */,
+				29360E55B49E8A461C6F196F /* MVVMCleanArchitecture_sampleUITests.swift */,
+			);
+			path = "MVVMCleanArchitecture-sampleUITests";
 			sourceTree = "<group>";
 		};
 		B7D09211993B7DA6497B4F48 /* App */ = {
@@ -96,10 +132,21 @@
 			path = "MVVMCleanArchitecture-sample";
 			sourceTree = "<group>";
 		};
+		E9F3A5BCF3F1506D6967A7C7 /* MVVMCleanArchitecture-sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AF0E5D33549E2A50306020A /* Info.plist */,
+				7B02FF6BEA087456B8E37288 /* MVVMCleanArchitecture_sampleTests.swift */,
+			);
+			path = "MVVMCleanArchitecture-sampleTests";
+			sourceTree = "<group>";
+		};
 		EC3DE4ADE33A5C13BF03088C /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				3A4CE191C25DA6D2253DC5E3 /* MVVMCleanArchitecture-sample.app */,
+				304F25B438F7CC9036FE41C3 /* MVVMCleanArchitecture-sampleTests.xctest */,
+				A8EC5C584EF3BEC481243CAA /* MVVMCleanArchitecture-sampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +154,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		13EA0F939D571B447F3F1F03 /* MVVMCleanArchitecture-sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96EAA558763CFD37B8B27470 /* Build configuration list for PBXNativeTarget "MVVMCleanArchitecture-sampleUITests" */;
+			buildPhases = (
+				A72A136A88356D8A5E778CB2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				490C7DA3304E6263B23E0F8A /* PBXTargetDependency */,
+			);
+			name = "MVVMCleanArchitecture-sampleUITests";
+			productName = "MVVMCleanArchitecture-sampleUITests";
+			productReference = A8EC5C584EF3BEC481243CAA /* MVVMCleanArchitecture-sampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		3009287414E3FEA5E1B7FB31 /* MVVMCleanArchitecture-sample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48A56F5D429619965BCC23E6 /* Build configuration list for PBXNativeTarget "MVVMCleanArchitecture-sample" */;
@@ -124,6 +187,22 @@
 			productName = "MVVMCleanArchitecture-sample";
 			productReference = 3A4CE191C25DA6D2253DC5E3 /* MVVMCleanArchitecture-sample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F43DD0A9F5B1C737B195BC9E /* MVVMCleanArchitecture-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A1A43E2188819DC5212358 /* Build configuration list for PBXNativeTarget "MVVMCleanArchitecture-sampleTests" */;
+			buildPhases = (
+				316EB5433F70DCEC1C5C6D04 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA22CB0DAEA1C6C29F9568E2 /* PBXTargetDependency */,
+			);
+			name = "MVVMCleanArchitecture-sampleTests";
+			productName = "MVVMCleanArchitecture-sampleTests";
+			productReference = 304F25B438F7CC9036FE41C3 /* MVVMCleanArchitecture-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -148,6 +227,8 @@
 			projectRoot = "";
 			targets = (
 				3009287414E3FEA5E1B7FB31 /* MVVMCleanArchitecture-sample */,
+				F43DD0A9F5B1C737B195BC9E /* MVVMCleanArchitecture-sampleTests */,
+				13EA0F939D571B447F3F1F03 /* MVVMCleanArchitecture-sampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +286,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		316EB5433F70DCEC1C5C6D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE26625C2FC07A953E392319 /* MVVMCleanArchitecture_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A0B235DDB8EE97E2E4557796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,7 +309,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A72A136A88356D8A5E778CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607C51FB0BA3FEC7C73E1D6A /* MVVMCleanArchitecture_sampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		490C7DA3304E6263B23E0F8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13EA0F939D571B447F3F1F03 /* MVVMCleanArchitecture-sampleUITests */;
+			targetProxy = 6A7167C68847E9871FC37ABB /* PBXContainerItemProxy */;
+		};
+		CA22CB0DAEA1C6C29F9568E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F43DD0A9F5B1C737B195BC9E /* MVVMCleanArchitecture-sampleTests */;
+			targetProxy = DE0E41F34A786052B798BAE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		086C89547076B10EA331ED5A /* LaunchScreen.storyboard */ = {
@@ -258,6 +368,38 @@
 			};
 			name = Release;
 		};
+		0C689C3B4F8F9FE0364EE7DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MVVMCleanArchitecture-sampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miseri.MVVMCleanArchitecture-sample.MVVMCleanArchitecture-sampleUITests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BAB18F202450E03AC36BBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MVVMCleanArchitecture-sampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miseri.MVVMCleanArchitecture-sample.MVVMCleanArchitecture-sampleUITests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		6F68C5709C234B0071D80958 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -273,6 +415,22 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		75C1A0CEF67D2F1842512789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MVVMCleanArchitecture-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miseri.MVVMCleanArchitecture-sample.MVVMCleanArchitecture-sampleTests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
 		};
 		7AC8723B4C2F18A4A4A4E160 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -391,9 +549,34 @@
 			};
 			name = Release;
 		};
+		F7F08C10E1666AB4F4B1C989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MVVMCleanArchitecture-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miseri.MVVMCleanArchitecture-sample.MVVMCleanArchitecture-sampleTests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		09A1A43E2188819DC5212358 /* Build configuration list for PBXNativeTarget "MVVMCleanArchitecture-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F08C10E1666AB4F4B1C989 /* Debug */,
+				75C1A0CEF67D2F1842512789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		48A56F5D429619965BCC23E6 /* Build configuration list for PBXNativeTarget "MVVMCleanArchitecture-sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -408,6 +591,15 @@
 			buildConfigurations = (
 				7AC8723B4C2F18A4A4A4E160 /* Debug */,
 				B12A14F259E36286767E1C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		96EAA558763CFD37B8B27470 /* Build configuration list for PBXNativeTarget "MVVMCleanArchitecture-sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAB18F202450E03AC36BBA1 /* Debug */,
+				0C689C3B4F8F9FE0364EE7DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

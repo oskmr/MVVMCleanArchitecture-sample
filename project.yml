@@ -11,16 +11,29 @@ targets:
   MVVMCleanArchitecture-sample:
     type: application
     platform: iOS
-
     sources:
       - MVVMCleanArchitecture-sample
 
     preBuildScripts:
-
       # SwiftLintで静的解析と自動修正
       - path: ./Scripts/XcodeGen/swiftlint.sh
         name: Run SwiftLint
-
       # SpellCheckerでスペルチェック
       - path: ./Scripts/XcodeGen/spellchecker.sh
         name: Run SpellChecker
+
+  MVVMCleanArchitecture-sampleTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - MVVMCleanArchitecture-sampleTests
+    dependencies:
+      - target: MVVMCleanArchitecture-sampleTests
+
+  MVVMCleanArchitecture-sampleUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - MVVMCleanArchitecture-sampleUITests
+    dependencies:
+      - target: MVVMCleanArchitecture-sampleUITests
