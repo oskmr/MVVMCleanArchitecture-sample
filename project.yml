@@ -2,18 +2,21 @@ name: MVVMCleanArchitecture-sample
 
 options:
   bundleIdPrefix: com.miseri.MVVMCleanArchitecture-sample
+  developmentLanguage: ja
   deploymentTarget:
   iOS: 14.3
   xcodeVersion: "12.5"
-
-packages:
 
 targets:
   MVVMCleanArchitecture-sample:
     type: application
     platform: iOS
 
+    sources:
+      - MVVMCleanArchitecture-sample
+
     preBuildScripts:
+
       # SwiftLintで静的解析と自動修正
       - path: ./Scripts/XcodeGen/swiftlint.sh
         name: Run SwiftLint
