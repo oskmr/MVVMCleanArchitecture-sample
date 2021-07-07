@@ -1,12 +1,12 @@
 # MVVMCleanArchitecture-sample
 
-## Setup
+## 🛠Setup
 
 ```
 $ make xcodegen
 ```
 
-## SwiftLint
+## SwiftLint（Static Code Analysis&Auto Collect）
 ```
 $ mint run swiftlint
 ```
