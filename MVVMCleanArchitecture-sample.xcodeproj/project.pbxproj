@@ -23,6 +23,10 @@
 		9C4441175587FE0F62C530C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BBECF2B1816CC744094DE4 /* Main.storyboard */; };
 		DC5560C8695209F4C5380023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F0D423927EEE309AB24973 /* ViewController.swift */; };
 		EE26625C2FC07A953E392319 /* MVVMCleanArchitecture_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B02FF6BEA087456B8E37288 /* MVVMCleanArchitecture_sampleTests.swift */; };
+		FC8F7A8026975B0D00E43395 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8F7A7E26975B0D00E43395 /* ListTableViewCell.swift */; };
+		FC8F7A8126975B0D00E43395 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8F7A7F26975B0D00E43395 /* ListTableViewCell.xib */; };
+		FC8F7A8426975B2C00E43395 /* SlideMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8F7A8226975B2C00E43395 /* SlideMenuCollectionViewCell.swift */; };
+		FC8F7A8526975B2C00E43395 /* SlideMenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8F7A8326975B2C00E43395 /* SlideMenuCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		E607F296EBC93FC26DF1C18B /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
 		E7F0D423927EEE309AB24973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F31298D40CBF0A2DF9A35E07 /* Pods-MVVMCleanArchitecture-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanArchitecture-sample.release.xcconfig"; path = "Target Support Files/Pods-MVVMCleanArchitecture-sample/Pods-MVVMCleanArchitecture-sample.release.xcconfig"; sourceTree = "<group>"; };
+		FC8F7A7E26975B0D00E43395 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		FC8F7A7F26975B0D00E43395 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		FC8F7A8226975B2C00E43395 /* SlideMenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC8F7A8326975B2C00E43395 /* SlideMenuCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideMenuCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +119,6 @@
 				56B615AF908EC6008297D2E2 /* Pods-MVVMCleanArchitecture-sampleTests.debug.xcconfig */,
 				8D0ABF1AAEFD1E06D9AB201A /* Pods-MVVMCleanArchitecture-sampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -176,6 +183,7 @@
 		D5D9F828F0A494DC3A20E6FB /* Presentasion */ = {
 			isa = PBXGroup;
 			children = (
+				FC8F7A7D26975AAF00E43395 /* Cells */,
 				A3BBECF2B1816CC744094DE4 /* Main.storyboard */,
 				E7F0D423927EEE309AB24973 /* ViewController.swift */,
 				4969FB4C7D73D9FDE68E1845 /* ViewModel.swift */,
@@ -186,6 +194,7 @@
 		E22FCBC78C1D21916AEC298B /* MVVMCleanArchitecture-sample */ = {
 			isa = PBXGroup;
 			children = (
+				FC8F7A7C269576F400E43395 /* Sources */,
 				40E8C27D2437800697B34F0C /* Assets.xcassets */,
 				D943E5D1C0FE0C8483F5B1C0 /* Info.plist */,
 				086C89547076B10EA331ED5A /* LaunchScreen.storyboard */,
@@ -214,6 +223,24 @@
 				A8EC5C584EF3BEC481243CAA /* MVVMCleanArchitecture-sampleUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8F7A7C269576F400E43395 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FC8F7A7D26975AAF00E43395 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FC8F7A7E26975B0D00E43395 /* ListTableViewCell.swift */,
+				FC8F7A7F26975B0D00E43395 /* ListTableViewCell.xib */,
+				FC8F7A8226975B2C00E43395 /* SlideMenuCollectionViewCell.swift */,
+				FC8F7A8326975B2C00E43395 /* SlideMenuCollectionViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,8 +311,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1250;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 6D24339B84154462775B69A2 /* Build configuration list for PBXProject "MVVMCleanArchitecture-sample" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -313,6 +338,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9588B0945992757D0D0BFEFA /* Assets.xcassets in Resources */,
+				FC8F7A8126975B0D00E43395 /* ListTableViewCell.xib in Resources */,
+				FC8F7A8526975B2C00E43395 /* SlideMenuCollectionViewCell.xib in Resources */,
 				0DE99C0E5885832F44BA5D44 /* LaunchScreen.storyboard in Resources */,
 				9C4441175587FE0F62C530C2 /* Main.storyboard in Resources */,
 			);
@@ -477,7 +504,9 @@
 				5396C162D09FB68C42DD01BD /* ListData.swift in Sources */,
 				3C08CBE8AC26C63FD1B8EEEE /* SceneDelegate.swift in Sources */,
 				3E4F612E4401DC3239D474EF /* Translator.swift in Sources */,
+				FC8F7A8026975B0D00E43395 /* ListTableViewCell.swift in Sources */,
 				548485F6C73FE574ADAC48FD /* UseCase.swift in Sources */,
+				FC8F7A8426975B2C00E43395 /* SlideMenuCollectionViewCell.swift in Sources */,
 				DC5560C8695209F4C5380023 /* ViewController.swift in Sources */,
 				3482882B18B224D2A83CDCC6 /* ViewModel.swift in Sources */,
 			);

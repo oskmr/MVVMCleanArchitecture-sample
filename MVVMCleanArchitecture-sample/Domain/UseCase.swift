@@ -6,3 +6,22 @@
 //
 
 import Foundation
+import RxSwift
+import RxCocoa
+import RxRelay
+
+final class UseCase {
+
+    struct Input {
+        let viewDidLoad: Observable<Void>
+    }
+
+    struct Output {
+        let cellModels: Observable<[Void]>
+    }
+
+    struct Dependency {
+        let gateway: Gateway
+        let translator: Translator
+    }
+}
