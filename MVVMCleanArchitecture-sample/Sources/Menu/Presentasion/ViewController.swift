@@ -11,7 +11,7 @@ final class ViewController: UIViewController {
 
     @IBOutlet private weak var menuTableView: UITableView! {
         didSet {
-            
+
         }
     }
 
