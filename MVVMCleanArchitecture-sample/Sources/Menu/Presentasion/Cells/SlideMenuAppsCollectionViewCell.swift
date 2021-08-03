@@ -7,7 +7,17 @@
 
 import UIKit
 
-class SlideMenuAppsCollectionViewCell: UICollectionViewCell {
+final class SlideMenuAppsCollectionViewCellModel {
+
+}
+
+final class SlideMenuAppsCollectionViewCell: UICollectionViewCell {
+
+    @IBOutlet private weak var slideMenuIconImageView: UIImageView! {
+        didSet {
+            slideMenuIconImageView.layer.cornerRadius = 2
+        }
+    }
 
     override func awakeFromNib() {
         super.awakeFromNib()
